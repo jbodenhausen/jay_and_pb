@@ -1,0 +1,81 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+     <head>
+          <title>About Showdrip</title>
+          <meta http-equiv="content-type" content="text/html;charset=utf-8" />
+		  <meta name="keywords" content="about Showdrip" />
+		  <meta name="description" content="Showdrip about page. Learn more about Showdrip." />
+          <script type="text/javascript" src="jquery.js"></script>
+		  <script type="text/javascript" src="showdrip.js"></script>
+		  <link rel="stylesheet" type="text/css" href="./showdrip.css" />
+     </head>
+	 
+	 <body>
+		<div id="allbodycontent" > <!-- all body content area -->
+			<div id="user_functions"> <!-- user area -->
+				<a href="./authentication.html">Login/Register</a>
+				<a href="./settings.html">Settings</a>
+			</div> <!-- user area -->
+			
+			<div id="header"> <!-- header area -->
+				<a href="./index.html"> <img src="./images/showdrip_logo_medium.png" alt="Showdrip Logo" /> </a>
+			</div> <!-- header area -->
+			
+			<div id="navigation"> <!-- navigation area -->
+				<a href="./index.html">Find Shows</a>
+				<a href="./venue.html">Venues</a>
+				<a href="./about.html">About</a>
+				<a href="./contact.html">Contact</a>
+			</div> <!-- navigation area -->
+			
+			<div id="mainbodycontent"> <!-- main body content area -->
+				<h1>About</h1>
+                <div id="about_choice">
+                    <p>Choose your own adventure!</p>
+                    <button id="text_ver">Quick and Texty</button>&nbsp;&nbsp;&nbsp;&nbsp;
+                    <button id="flash_ver">Cool and Flashy</button>
+                </div>
+                <p id="showdrip_about_text">
+                I used to find myself frustrated by how much time it took to find musical entertainment near me that I would 
+                actually be interested in watching. The sources I used to find music were local periodicals, online listings 
+                for periodicals, ticket vendors&rsquo; websites, or other event websites. These sources all have major 
+                downsides. Listings in hard copies of periodicals are often scattered in no apparent order and are printed in 
+                many different fonts and styles making it slow and chaotic to find out what is happening. Online listings 
+                are an improvement over this, however, these are often too granular and require you to search through a 
+                multitude of listings just to find the small subset of shows you might like. Ticket vendors&rsquo; websites 
+                will often only highlight the biggest shows or require you to go to other vendor/event sites to find out 
+                what's playing. To solve these problems, Showdrip was created to allow users to quickly search shows in an area, 
+                get basic information about venues, and provide listings that clearly highlight venue and band names. 
+                On Showdrip users are also able to set their favorite venues allowing them to easily get an idea of 
+                what's going on at the places they enjoy.   
+                </p>                
+				<p id="showdrip_flash">
+					<object id="showDrip" classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" width="800" height="500">
+						<param name="movie" value="./images/showDrip.swf" />
+						<!--[if !IE]>-->
+						<object type="application/x-shockwave-flash" data="./images/showDrip.swf" width="800" height="500">
+						<!--<![endif]-->
+							<param name="quality" value="best" />
+							<param name="bgcolor" value="#FFFFFF" />
+							<param name="wmode" value="opaque" />
+							<param name="play" value="true" />
+							<param name="loop" value="false" />
+							<param name="menu" value="true" />
+							<param name="allowscriptaccess" value="samedomain" />
+							<param name="swfversion" value="6.0.65.0" />
+						<!--[if !IE]>-->
+						</object>
+						<!--<![endif]-->
+					</object>
+				</p>
+				
+			</div> <!-- main body content area -->
+			
+			<div id="footer"><!-- footer area -->
+				<a href="./contact.html">Showdrip 2012</a>
+				<p><a href="./sitemap.html">Site Map</a></p>
+			</div> <!-- footer area -->
+		</div> <!-- all body content area -->
+	 </body>
+</html>

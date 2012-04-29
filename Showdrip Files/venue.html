@@ -1,0 +1,76 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+     <head>
+          <title>Venue Search</title>
+          <meta http-equiv="content-type" content="text/html;charset=utf-8" />
+		  <meta name="keywords" content="Showdrip, venue, search" />
+		  <meta name="description" content="Showdrip venue search page. Find a venue on Showdrip to get more information about it." />
+          <script type="text/javascript" src="jquery.js"></script>
+		  <script type="text/javascript" src="showdrip.js"></script>
+		  <link rel="stylesheet" type="text/css" href="./showdrip.css" />
+     </head>
+	 
+	 <body>
+		<div id="allbodycontent" ><!-- all body content area -->
+			<div id="user_functions"> <!-- user area -->
+				<a href="./authentication.html">Login/Register</a>
+				<a href="./settings.html">Settings</a>
+			</div> <!-- user area -->
+			
+			<div id="header"> <!-- header area -->
+				<a href="./index.html"> <img src="./images/showdrip_logo_medium.png" alt="Showdrip Logo" /> </a>
+			</div> <!-- header area -->
+			
+			<div id="navigation"> <!-- navigation area -->
+				<a href="./index.html">Find Shows</a>
+				<a href="./venue.html">Venues</a>
+				<a href="./about.html">About</a>
+				<a href="./contact.html">Contact</a>
+			</div> <!-- navigation area -->
+			
+			<div id="mainbodycontent"> <!-- main body content area -->
+				<h1>Find Venues</h1>
+				
+				<div id="search_line">
+					<p>
+						Enter a venue name to find a venue: <br />						
+						<input type="text" id="search_string" name="ven_search_string" value="Type Here..." size="25" />												
+					</p>
+				</div>
+			            
+                <div id="search_results">
+                    <table id="results_table" summary="Search results for venue search."><tr><td></td></tr></table>
+                </div>
+                
+                <div id="venue_page_area"> <!-- venue page area -->
+                    <div id="venue_info"> <!-- venue info area -->
+                        <h1 id="venue_name"></h1>
+                        <div id="image_area_left">                                                    
+                            <img id="venue_image" src="" alt="" />
+                            <h2>Map</h2>				
+                            <img id="map_image" src="" alt="" />
+                        </div> <!-- venue info area -->
+                        
+                        <div id="venue_data"> <!-- venue data area -->
+                            <h2>Address</h2>
+                            <p id="venue_address"></p>
+                            <p id="venue_city"></p>
+                            <h2>Phone</h2>
+                            <p id="venue_phone"></p>
+                            <h2>Website</h2>
+                            <p><a id="venue_website" target="_blank"></a></p>
+                            <h2>Description</h2>
+                            <p id="venue_description"></p>
+                        </div> <!-- venue data area -->
+                    </div> <!-- venue info area -->
+                </div> <!-- venue page area -->
+            </div> <!-- main body content area -->
+			
+			<div id="footer"><!-- footer area -->
+				<a href="./contact.html">Showdrip 2012</a>
+				<p><a href="./sitemap.html">Site Map</a></p>
+			</div> <!-- footer area -->
+		</div><!-- all body content area -->
+	 </body>
+</html>

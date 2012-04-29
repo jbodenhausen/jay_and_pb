@@ -1,0 +1,91 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+     <head>
+          <title>Showdrip Login or Register</title>
+          <meta http-equiv="content-type" content="text/html;charset=utf-8" />
+		  <meta name="keywords" content="Showdrip, login, registration, register" />
+		  <meta name="description" content="Showdrip Login/Registration page. Sign up or sign in to Showdrip." />
+          <script type="text/javascript" src="jquery.js"></script>
+		  <script type="text/javascript" src="showdrip.js"></script>
+		  <link rel="stylesheet" type="text/css" href="./showdrip.css" />
+     </head>
+	 
+	 <body>     
+		<div id="allbodycontent" > <!-- all body content area -->
+			<div id="user_functions"> <!-- user area -->
+				<a href="./authentication.html">Login/Register</a>
+				<a href="./settings.html">Settings</a>
+			</div> <!-- user area -->
+			
+			<div id="header"> <!-- header area -->
+				<a href="./index.html"> <img src="./images/showdrip_logo_medium.png" alt="Showdrip Logo" /> </a>
+			</div> <!-- header area -->
+			
+			<div id="navigation"> <!-- navigation area -->
+				<a href="./index.html">Find Shows</a>
+				<a href="./venue.html">Venues</a>
+				<a href="./about.html">About</a>
+				<a href="./contact.html">Contact</a>
+			</div> <!-- navigation area -->
+			
+			<div id="mainbodycontent"> <!-- main body content area -->
+				<h1>Login/Register</h1>
+				<div class="login_area">
+					<h2>Already signed up? Login here.</h2>
+					<table summary="Login controls.">
+						<tr>
+							<td class="form_descrip">Username:</td>
+							<td><input type="text" name="login_username" /></td>							
+						</tr>
+						<tr>
+							<td class="form_descrip">Password:</td>
+							<td><input type="password" name="login_password" /></td>							
+						</tr>					
+					</table>
+                    <button>Login</button>
+                    <div class="login_text"></div>
+				</div>
+				
+				<p><br /></p>
+				
+				<div class="login_area">  <!-- login area -->
+					<h2>Haven't registered yet? Register here.</h2>
+					<table summary="Register controls.">
+						<tr>
+							<td class="form_descrip">First Name:</td>
+							<td><input type="text" name="first_name" /></td>							
+						</tr>
+						<tr>						
+							<td class="form_descrip">Last Name:</td>						
+							<td><input type="text" name="last_name" /></td>
+						</tr>
+						<tr>
+							<td class="form_descrip">Email Address:</td>						
+							<td><input type="text" name="email_address" /></td>
+						</tr>
+						<tr>						
+							<td class="form_descrip">Username:</td>
+							<td><input type="text" name="reg_username" /></td>
+						</tr>
+						<tr>						
+							<td class="form_descrip">Password:</td>						
+							<td><input type="password" name="reg_password" /></td>
+						</tr>
+						<tr>						
+							<td class="form_descrip">Confirm Password:</td>						
+							<td><input type="password" name="conf_password" /></td>
+						</tr>
+					</table>
+                    <button>Register Me</button>       
+                    <div class="login_text"></div>                    
+				</div>  <!-- login area -->
+			</div> <!-- main body content area -->
+			
+			<div id="footer"> <!-- footer area -->
+				<a href="./contact.html">Showdrip 2012</a>
+				<p><a href="./sitemap.html">Site Map</a></p>
+			</div> <!-- footer area -->
+		</div> <!-- all body content area -->
+	 </body>
+</html>

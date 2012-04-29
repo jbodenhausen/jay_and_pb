@@ -1,0 +1,324 @@
+/* Primary document selectors and rules */
+body {
+	background-color: #FFF;
+	color: #3F3F3F;
+	font-size: medium;
+	font-family: Verdana, sans-serif;
+	background-repeat: repeat;
+	background-image: url(./images/bg_image.gif);
+}
+
+h1 {
+	font-family: "Trebuchet MS";
+	font-size: 150%;
+	font-weight: bold;
+	color: #C6C;
+	text-align: left;
+	margin-bottom: 0px;
+	padding-left: 15px;
+}
+
+button {
+	font-family: "Trebuchet MS";
+	font-size: 115%;
+	font-weight: bold;
+	text-align: center;
+	background-color: #C6C;
+	border: 2px outset #C6C;
+
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	color: #FFF;
+	cursor: pointer;
+}
+
+img {
+	border-style: none;
+}
+
+input {
+	padding: 3px;
+
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+}
+
+input:focus,select:focus,button:focus,div:focus {
+	outline-offset: 1px;
+	outline: #FCF dotted 2px;
+}
+
+h2 {
+	font-family: "Trebuchet MS";
+	font-size: 115%;
+	font-weight: bold;
+	color: #C6C;
+	text-align: left;
+	margin-bottom: 0px;
+}
+
+p {
+	margin: 10px 0px 20px 0px;
+}
+
+p#venue_address {
+	margin-bottom: 0px;
+}
+
+p#venue_city {
+	margin-top: 0px;
+}
+
+a {
+	color: #66C;
+	text-decoration: none;
+}
+
+a:focus {
+	outline-offset: 1px;
+	outline: #FCF dotted 1px;
+}
+
+a:hover,a:focus {
+	color: #69C;
+}
+
+caption,.login_text,.settings_help_text {
+	width: 600px;
+	font-style: italic;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+
+search_results {
+	display: none;
+}
+
+table {
+	width: 800px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 20px;
+}
+
+th {
+	background-color: #3F3F3F;
+	color: #FFF;
+}
+
+select,input {
+	border-colof: #3F3F3F;
+	border-width: 1px;
+
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	font-size: 110%;
+}
+
+option:hover {
+	background-color: #69C;
+}
+
+/* ----------ID RULES ----------*/
+#add_fav_arrow {
+	background-repeat: no-repeat;
+	background-image: url(./images/arrow_unpressed.gif);
+	color: #FFF;
+	cursor: pointer;
+	font-family: "Trebuchet MS";
+	font-size: 115%;
+	font-weight: bold;
+	height: 50px;
+	width: 137px;
+	margin: auto;
+	outline: none;
+	padding: 28px 0px 0px 60px;
+	text-align: left;
+}
+
+#allbodycontent {
+	width: 800px;
+	margin: 10px auto 10px auto;
+	border-color: #3F3F3F;
+	background-color: white;
+    
+	-webkit-border-radius: 7px;
+	-moz-border-radius: 7px;
+	border-radius: 7px;
+}
+
+/* user area */
+#user_functions {
+	font-size: 75%;
+	text-align: right;
+}
+
+#user_functions a {
+	padding: 0px 10px 0px 10px;
+}
+
+/* Header Area */
+#header {
+	text-align: center;
+	height: 105px;
+	font-size: 200%;
+	padding: 10px;
+}
+
+#header a:focus {
+	display: inline-block;
+	outline-offset: 1px;
+	outline: #FCF dotted 1px;
+}
+
+/* Navigation Area */
+#navigation {
+	text-align: center;
+	padding: 5px;
+	border-top: 1px dotted;
+	border-bottom: 1px dotted;
+}
+
+#navigation a {
+	color: #69C;
+	font-weight: bold;
+	margin: 5px 30px 5px 30px;
+	padding: 5px;
+}
+
+#navigation a:hover,#navigation a:focus {
+	color: #FFF;
+	background-color: #69C;
+}
+
+#search_line {
+	text-align: center;
+	margin-bottom: 50px;
+}
+
+#search_string {
+	height: 60px;
+	text-align: center;
+	font-size: 50px;
+	margin-top: 10px;
+	color: #3f3f3f;
+}
+
+#search_results td,th {
+	padding: 5px 20px 5px 20px;
+	text-align: center;
+}
+
+#contact_ops {
+	margin-left: 250px;
+}
+
+#footer {
+	text-align: center;
+	font-size: 75%;
+	padding: 30px 10px 10px 10px;
+	margin-top: 50px;
+	border-top: 1px dotted;
+}
+
+#image_area_left {
+	vertical-align: top;
+	float: left;
+	width: 280px;
+	padding: 30px 5px 5px 5px;
+}
+
+#image_area_left img {
+	border: 1px solid #C6C;
+
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	margin: 20px 0px 20px 0px;
+}
+
+#about_choice,#sitemap_links {
+	margin: auto;
+	text-align: center;
+}
+
+#showdrip_about_text,#showdrip_flash, #venue_page_area {
+	display: none;
+}
+
+#showdrip_about_text {
+	padding: 15px;
+	text-align: justify;
+}
+
+#venue_data {
+	vertical-align: top;
+	margin-left: 300px;
+	padding: 30px 5px 5px 5px;
+	width: 490px;
+}
+
+#venue_info {
+	display: inline-block;
+}
+
+#venue_info h1 {
+	background-color: #C6C;
+	border: 1px solid #C6C;
+	color: #FFF;
+	margin-top: 5px;
+	padding-left: 5px;
+}
+
+/* ----------CLASS RULES ----------*/
+.form_descrip {
+	width: 160px;
+	padding-right: 10px;
+	text-align: right;
+}
+
+.settings_center {
+	text-align: center;
+	vertical-align: middle;
+}
+
+.row_color {
+	background-color: #EFEFEF;
+}
+
+.login_area {
+	margin: 15px 0px 15px 0px;
+	padding-bottom: 15px; 
+    /*border:  2px dashed #69C;
+	-webkit-border-radius:  5px;
+	-moz-border-radius:  5px;
+	border-radius:  5px; */
+}
+
+.login_area button {
+	width: 300px;
+	margin-left: 31.25%;
+	margin-right: 31.25%;
+}
+
+.login_area input {
+	width: 240px;
+}
+
+.login_area table {
+	margin-left: 20%;
+	display: inline-block;
+}
+
+.login_area h2 {
+	text-align: center;
+	margin-bottom: 15px;
+}
+
+.login_text {
+	margin-top: 20px;
+}
